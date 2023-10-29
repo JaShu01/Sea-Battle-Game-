@@ -14,22 +14,29 @@ The primary objectives of this project were as follows:
 
 ## Project Structure
 
+The project is organized into several key files and modules:
+
 - `server.py`: Contains the server-side code responsible for managing communication between clients and handling game logic (unfinished).
 
 - `client.py`: Houses the client-side code for player interaction and gameplay (unfinished).
 
-- `shared_memory.py`, `message_queue.py`, `sockets.py`, `pipes.py`: Modules intended for implementing different interprocess communication methods (unfinished).
+- `Coordinates.py`: Defines functions and classes for managing coordinates within the game.
 
-- `game_logic.py`: Contains the core logic of the Sea Battle game, including ship placement, turn-based gameplay, and victory conditions (unfinished).
+- `Player.py`: Contains definitions for different player types, such as player vs. player or player vs. CPU.
+
+- `Ship.py`: Provides functionality for creating and managing ships within the game.
+
+- `Func.py`: Contains essential functions and game logic for the Sea Battle game.
+
+- `Game_Running.py`: The entry point to start the Sea Battle game.
+
+- `grafiks.py`: Handles the graphical elements and display of the game (unfinished).
 
 ## Usage
 
-Unfortunately, due to the incomplete nature of the project, running the game in its current state is not possible. However, you are encouraged to explore the codebase and use it as a reference for your own projects involving interprocess communication and terminal-based games.
+Unfortunately, due to the incomplete nature of the project, running the game in its current state is not possible. However, you are encouraged to explore the codebase, study the functions and classes defined in each file, and use it as a reference for your own projects involving interprocess communication and terminal-based games.
 
 ## Contributing
 
 Contributions to this project are welcome. If you are interested in completing the game, improving its functionality, or adding new features, please feel free to fork the repository and submit pull requests.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
